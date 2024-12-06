@@ -1,0 +1,33 @@
+.data
+Label3: .asciiz "x é igual a y | z vale: "
+Label4: .asciiz "x é diferente de y | z vale: "
+
+.text
+	jal main
+	li $v0, 10
+	syscall
+main:
+	li $t0, 10
+	li $t1, 10
+	move $t4, $t0
+	move $t5, $t1
+	add $t3, $t4, $t5
+	sub $t2, $zero ,$t3
+	move $t6, $t0
+	move $t7, $t1
+	bne $t6, $t7, Label1
+Label0:
+	la $t8, Label3
+	move $a0, $t8
+	li $v0, 4
+	syscall
+	j Label2
+Label1:
+	la $t9, Label4
+	move $a0, $t9
+	li $v0, 4
+	syscall
+Label2:
+	move $a0, $t2
+	li $v0, 1
+	syscall
