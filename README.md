@@ -15,7 +15,7 @@ Compilador simples para a linguagem Kotlin desenvolvido em Haskell, Alex e Happy
 ./compiler < exs/ex1.kt
 ```
 
-# Após compilar o ficheiro <compiler> este irá imprimir a os Tokens do Lexer.x, a AST do Parser.y, o código intermédio correspondente e por fim o código Assembly MIPS equivalente ao código original.
+Após compilar o ficheiro <compiler> este irá imprimir a os Tokens do Lexer.x, a AST do Parser.y, o código intermédio correspondente e por fim o código Assembly MIPS equivalente ao código original.
 
 
 
