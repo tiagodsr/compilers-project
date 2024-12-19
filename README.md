@@ -1,8 +1,6 @@
 
 # Compiladores 2024/2025
 
-[Eduardo R. B. Marques](https://www.dcc.fc.up.pt/~edrdo/), DCC/FCUP
-
 Tiago da Silva Rodrigues, DCC/FCUP
 
 Este projeto foi desenvolvido no âmbito da Unidade Curricular Compiladores, durante o ano letivo 2024/2025, na Faculdade de Ciências da Universidade do Porto
